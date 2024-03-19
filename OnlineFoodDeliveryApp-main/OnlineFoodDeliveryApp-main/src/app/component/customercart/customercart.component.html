@@ -1,0 +1,48 @@
+
+<app-customerheader></app-customerheader>
+
+<!-- <p>customercart works!</p>
+{{cartData|json}}
+<h1>Response</h1>
+{{response|json}} -->
+<!-- customercart.component.html -->
+
+<!-- customercart.component.html -->
+
+<div class="container mt-4">
+  <table class="table">
+    <thead>
+      <tr>
+        <!-- <th>Cart ID</th> -->
+        <th>Customer ID</th>
+        <th>Restaurant ID</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+        <th>Menu IDs</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of response">
+        <!-- <td>{{ item.cartId }}</td> -->
+        <td>{{ item.customerId }}</td>
+        <td>{{ item.restaurantId }}</td>
+        <td>{{ item.price }}</td>
+        <td>{{ item.quantity }}</td>
+        <td>{{ item.total }}</td>
+        <td>{{ item.menuIds.join(', ') }}</td>
+        <td>
+              <button (click)="delete(item.cartId)" class="btn btn-danger">delete Cart</button>
+              
+            </td>
+      
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+<button class="btn btn-secondary" (click)="backTocustomerDash()">Back To customer DashBoard</button>
+{{finalamount}}
+<button (click)="calculateTotalSum()"  class="btn btn-danger">Total Amount</button>  
+<button (click)="order()"  class="btn btn-danger">💕Order Now💕</button> 
+ 

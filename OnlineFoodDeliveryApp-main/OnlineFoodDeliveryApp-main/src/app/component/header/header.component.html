@@ -1,0 +1,12 @@
+<header class="header">
+  <ul>
+    <li><a class="nav-button" routerLink="/home" routerLinkActive="active">Home</a></li>
+    <li class="dropdown" (mouseenter)="toggleDropdown(true)" (mouseleave)="toggleDropdown(false)">
+      <div class="dropbtn">Login &#9662;</div>
+      <div class="dropdown-content" [ngClass]="{ 'show': isDropdownOpen }">
+        <div *ngIf="isDropdownOpen" class="login-container">
+          <a class="login-button" routerLink="/login">Admin Login</a>
+          <a class="login-button" routerLink="/Customerlogin">Customer Login</a>
+        </div>
+      </div>
+    </li>

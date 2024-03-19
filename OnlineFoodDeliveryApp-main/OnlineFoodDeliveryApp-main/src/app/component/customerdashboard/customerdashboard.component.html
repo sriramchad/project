@@ -1,0 +1,50 @@
+
+<app-customerheader></app-customerheader>
+
+<h1>Customer Dashboard</h1>
+<body>
+    <div class="admin-dashboard">
+    <header class="header">
+<ul class="button-list">
+
+      
+    <li class="restaurant-container">
+    <button class="header-button large-buttoncustomer" (click)="transfer()">User Details</button>
+    <button class="header-button large-buttonrest" (click)="gotorestaurant()">restarant Details</button>
+    <button class="header-button large-buttoncart" (click)="gotocart()">show cart</button>
+   
+    <button  class="header-button large-buttonorder" (click)="showorders()" >Show Orders</button>
+
+</li>
+
+
+
+</ul>
+</header>
+</div>
+  
+</body>
+
+
+<!-- <body>
+    <div class="admin-dashboard">
+    <header class="header">
+<ul class="button-list">
+    <li class="restaurant-container">
+        <a class="header-button large-buttoncustomer" routerLink="/customerinfo" routerLinkActive="active">
+            User Details
+          </a>
+      <a class="header-button large-buttonrest" routerLink="/customerrestaurant" routerLinkActive="active">
+        Restarant Details
+      </a>
+
+      <a class="header-button large-buttoncart" routerLink="/customercart" routerLinkActive="active">
+        Show Cart
+      </a>
+    </li>
+    
+  </ul>
+</header>
+</div>
+  
+</body> -->

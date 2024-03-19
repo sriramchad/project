@@ -1,0 +1,38 @@
+<app-adminheader></app-adminheader>
+<body>
+  <h1>Update Menu</h1>
+<div class="container  col-lg-4">
+<form   #formData=ngForm  (ngSubmit)="update(formData)" >
+    <!-- <div class="form-group">
+    
+        menuItemId :<input type="number" class="form-control" name="menuItemId"  required  #menuItemId="ngModel"  ngModel>
+      <span style="color:red"  *ngIf="menuItemId.touched && menuItemId.invalid" >menuItemId is required</span>
+    </div> -->
+    <div class="form-group">
+    
+        Restaurant Id :<input type="number" class="form-control" name="restaurantId"  required  #restaurantId="ngModel"  ngModel>
+      <span style="color:red"  *ngIf="restaurantId.touched && restaurantId.invalid" >restaurantId is required</span>
+    </div>
+    <div class="form-group">
+      
+        Item Name:<input type="text" class="form-control" name="itemName"  required  #itemName="ngModel"  ngModel>
+      <span style="color:red"  *ngIf="itemName.touched && itemName.invalid" >itemName is required</span>
+    </div>
+    
+    
+    <div class="form-group">
+
+        Description:<input type="text" class="form-control" name="description"  required  #description="ngModel"  ngModel>
+      <span style="color:red"  *ngIf="description.touched && description.invalid" >description is required</span>
+    </div>
+    <div class="form-group">
+      
+        Price:<input type="number" class="form-control"  name="price"  required  #price="ngModel"   ngModel>
+      <span style="color:red"   *ngIf="price.touched && price.invalid" >price is mandartory</span>
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="formData.invalid"  >Submit</button>
+  </form>
+</div>
+<button class="btn btn-secondary" (click)="backToMenu()">Back To Menu</button>
+</body>

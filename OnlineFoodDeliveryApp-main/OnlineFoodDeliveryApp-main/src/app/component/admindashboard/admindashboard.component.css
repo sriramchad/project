@@ -1,0 +1,238 @@
+/* .header {
+    display: flex;
+    justify-content: center;
+    
+    background-image: url("../../../assets/blurfood.avif");
+    padding: 10px 0;
+  }
+  .button-list {
+    list-style: none; Remove bullet points
+    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    gap: 15px; // Adjust the space between buttons 
+}
+  .header-button {
+    margin: 10px;
+    padding: 5px 8px;
+    border: 1px solid black; 
+    border-radius: 5px;
+    background-color: rgb(111, 0, 255);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+
+
+
+
+    
+  }
+  
+  .header-button:hover {
+    background-color: white; 
+    border-color: white; 
+    color: purple; 
+  }
+  
+  
+  .active {
+    background-color: #202020; 
+    border-color: #000000; 
+    color: #e0e0e0; 
+  }
+   */
+
+
+
+   
+   .header {
+    display: flex;
+    justify-content: center;
+
+    padding: 10px 0;
+  }
+  
+  .button-list {
+    list-style: none;
+    padding: 20px;
+    margin: 10;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    background-image: url("../../../assets/back4.jpg");
+    /* background-size: cover; */
+    background-size: contain;
+    background-size: 100% 100%;
+
+
+  }
+  
+  .restaurant-container
+  {
+    display: flex;
+    gap: 80px; 
+    /* width: 400px; 
+    padding: 50px; */
+  }
+  .cart-container{
+    display: flex;
+    gap: 80px; 
+    /* width: 400px; 
+    padding: 50px; */
+  }
+   .menu-container{
+    display: flex;
+    gap: 80px; 
+    /* width: 400px; 
+    padding: 50px; */
+  }
+  .ordcust-container{
+    display: flex;
+    gap: 80px; 
+    /* width: 400px; 
+    padding: 50px; */
+  }
+
+
+
+
+
+  .header-button {
+    margin:10px;
+    padding: 110px;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+    /* color: #fff; */
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    position:relative;
+    overflow: hidden;
+    width: 200px;
+    height:50px;
+    
+    text-align:justify;
+    display: flex; /* Convert button to flexbox */
+    align-items: center;
+    
+  }
+  
+  .large-button {
+    width: auto;
+ flex: 1;
+ flex-basis: 45%;
+    background-size: cover;
+    
+  }
+  
+  /* Example background images for buttons */
+  .large-buttonrest {
+    width: 100%; /* Span two columns */
+    flex: 0; /* Disable flex behavior */
+    margin: 20px; /* Maintain consistent spacing */
+    background-image: url("../../../assets/addrest.jpeg");
+    background-size: cover;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+
+
+    display: flex; /* Convert button to flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: center;
+   
+    
+  }
+  
+  .large-buttonmenu {
+    width: 100%; /* Span two columns */
+    flex: 0; /* Disable flex behavior */
+    margin: 20px; /* Maintain consistent spacing */
+    
+    background-size: cover;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+
+    background-image: url("../../../assets/addmenu.jpg");
+    display: flex; /* Convert button to flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: center;
+   
+      }
+  
+  .large-buttoncart {
+    width: 100%; /* Span two columns */
+    flex: 0; /* Disable flex behavior */
+    margin: 20px; /* Maintain consistent spacing */
+   
+    background-size: cover;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+
+
+    display: flex; /* Convert button to flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: center;
+   
+    
+    background-image: url("../../../assets/addcart.jpeg");
+  }
+  
+  .large-buttonorder {
+    width: 100%; /* Span two columns */
+    flex: 0; /* Disable flex behavior */
+    margin: 20px; /* Maintain consistent spacing */
+  
+    background-size: cover;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+
+
+    display: flex; /* Convert button to flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: center;
+   
+       background-image: url("../../../assets/addorder.jpg");
+  }
+  
+  .large-buttoncustomer {
+    width: 100%; /* Span two columns */
+    flex: 0; /* Disable flex behavior */
+    margin: 20px; /* Maintain consistent spacing */
+   
+    background-size: cover;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+
+
+    display: flex; /* Convert button to flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: center;
+   
+     background-image: url("../../../assets/addcust.jpeg");
+  }
+  
+  .header-button:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .active {
+    border-color: #2ecc71;
+  }
+  
+  /* Make the Show Customers button span two columns */
+  .full-width-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }

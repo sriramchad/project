@@ -1,0 +1,37 @@
+body{
+  background-image: url("../../../assets/white3.jpg");
+}
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+
+.table {
+  width: 70%; 
+  margin: 20px auto; 
+  border-collapse: collapse; 
+  background-color: whitesmoke;
+}
+
+
+.table th {
+  background-color:#009879; 
+  padding: 10px; 
+  text-align: left; 
+  border: 1px solid white; 
+  color: white;
+}
+
+
+.table td {
+  padding: 10px; 
+  border: 1px solid white; 
+}
+
+
+.btn {
+  margin: 10px; 
+}

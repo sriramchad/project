@@ -1,0 +1,25 @@
+<app-customerheader></app-customerheader>
+
+<!-- <p>customerinfo works!</p> -->
+<!-- {{response|json}}
+{{response.customerId}} -->
+<!-- Add Bootstrap table classes -->
+<table border="1" class="table table-bordered">
+    <!-- Table headers -->
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <!-- Table body -->
+    <tbody>
+      <tr *ngFor="let item of responseDataArray">
+        <td>{{ item.key }}</td>
+        <td>{{ item.value }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-secondary" (click)="backTocustomerDash()">Back To Customer DashBoard</button>
+
+  

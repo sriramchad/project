@@ -1,0 +1,44 @@
+<app-adminheader></app-adminheader>
+
+<body>
+
+   <h1 class="text-center">Menu Page</h1>
+
+<div *ngIf="response && response.length > 0">
+  <table border="1" class="table table-bordered">
+    <!-- Table headers -->
+    <!-- {{response|json}} -->
+    <thead>
+      <tr>
+        <th>Restaurant Id</th>
+        <th>MenuItem Id</th>
+        <th>Item Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Update</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <!-- Table body -->
+    <tbody>
+      <tr *ngFor="let admin of response">
+        <td>{{ admin.restaurants.restaurantId }}</td>
+        <td>{{ admin.menuItemId }}</td>
+        <td>{{ admin.itemName }}</td>
+        <td>{{ admin.description }}</td>
+        <td>{{ admin.price }}</td>
+        <td>
+           <button (click)="goToUpdate(admin.menuItemId)" class="btn btn-update">Update</button>
+        </td>
+        <td><button (click)="delete(admin.menuItemId)" class="btn btn-danger">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<button class="btn btn-secondary" (click)="backToadminDash()">Back To Admin DashBoard</button>
+
+
+</body>

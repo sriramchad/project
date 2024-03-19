@@ -1,0 +1,41 @@
+<app-customerheader></app-customerheader>
+
+
+<!-- <h1>in Show orders</h1> -->
+<body><h2 class="text-center">Orders Page</h2>
+
+    <!-- <h2 class="text-center">Orders Page</h2>
+{{response|json}} -->
+<div *ngIf="response && response.length > 0">
+  <table border="1" class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Order ID</th>
+        <th>Delivery Address</th>
+        <th>Payment Method</th>
+        <th>Total Amount</th>
+        <th>Customer ID</th>
+        <!-- <th>Customer Name</th>
+        <th>Email</th>
+        <th>Phone Number</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let order of response">
+        <td>{{ order.cartId }}</td>
+        <td>{{ order.deliveryAddress }}</td>
+        <td>{{ order.paymentMethod }}</td>
+        <td>{{ order.totalAmount }}</td>
+        <td>{{ order.customerId }}</td>
+        <!-- <td>{{ order.customer.customerName }}</td>
+        <td>{{ order.customer.email }}</td>
+        <td>{{ order.customer.phoneNumber }}</td> -->
+        <td>
+            <button (click)="delete(order.cartId)" class="btn btn-danger">Delete</button>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<button class="btn btn-secondary" (click)="backTocustomerDash()">Back To Customer DashBoard</button>
+
+

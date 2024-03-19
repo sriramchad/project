@@ -1,0 +1,25 @@
+<app-customerheader></app-customerheader>
+
+<div class="container  col-lg-4">
+  <form   #formData=ngForm  (ngSubmit)="add(formData)" >
+    
+
+    <div class="form-group">
+      
+      deliveryAddress:<input type="text" class="form-control" name="deliveryAddress"  required  #deliveryAddress="ngModel"  ngModel>
+      <span style="color:red"  *ngIf="deliveryAddress.touched && deliveryAddress.invalid" >deliveryAddress is required</span>
+    </div>
+    
+    
+    <div class="form-group">
+
+      paymentMethod:<input type="text" class="form-control" name="paymentMethod"  required  #paymentMethod="ngModel"  ngModel>
+      <span style="color:red"  *ngIf="paymentMethod.touched && paymentMethod.invalid" >paymentMethod is required</span>
+    </div>
+    
+
+    <button type="submit" class="btn btn-primary" [disabled]="formData.invalid"  >Submit</button>
+  </form>
+</div>
+<br>
+<button class="btn btn-primary" (click)="showorders()" >Move to DashBoard</button>

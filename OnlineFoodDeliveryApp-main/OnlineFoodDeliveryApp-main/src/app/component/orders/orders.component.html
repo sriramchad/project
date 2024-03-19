@@ -1,0 +1,47 @@
+<app-adminheader></app-adminheader>
+
+
+<body><h1 class="text-center">Orders Page</h1>
+
+<div *ngIf="response && response.length > 0">
+    <!-- {{response|json}} -->
+  <table border="1" class="table table-bordered">
+    <!-- Table headers -->
+    <!-- {{response|json}} -->
+    <thead>
+      <tr>
+        <th>Order Id</th>
+        <th>Customer Id</th>
+        <th>Customer Name</th>
+        <th>Phone Number</th>
+        <th>Delivery Address</th>
+        <th>Payment Method</th>
+        <th>Total Amount</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    
+    <!-- Table body -->
+    <tbody>
+      <tr *ngFor="let admin of response">
+        <td>{{ admin.cartId }}</td>
+        <td>{{ admin.customer.customerId }}</td>
+        
+        <td>{{ admin.customer.customerName }}</td>
+        <td>{{ admin.customer.phoneNumber }}</td>
+        <td>{{ admin.deliveryAddress }}</td>
+        <td>{{ admin.paymentMethod }}</td>
+        <td>{{ admin.totalAmount }}</td>
+        
+        <td>
+          <button (click)="delete(admin.cartId)" class="btn btn-danger">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<button class="btn btn-secondary" (click)="backToadminDash()">Back To Admin DashBoard</button>
+
+
+
+</body>

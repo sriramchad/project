@@ -1,0 +1,10 @@
+body{
+    background-image: url("../../../assets/white3.jpg");
+  }
+
+  h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+  }

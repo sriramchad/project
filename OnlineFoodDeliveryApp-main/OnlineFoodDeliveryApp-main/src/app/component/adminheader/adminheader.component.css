@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Align buttons opposite sides */
+  align-items: center;
+  background-color: lightskyblue;
+  padding: 20px;
+}
+
+/* Button styles */
+.header-button {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff; /* White background color */
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer; /* Change cursor to pointer */
+  border: 1px solid #000;
+}
+
+.header-button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Button container styles */
+.header-buttons {
+  display: flex; /* Display buttons horizontally */
+  justify-content: space-between; /* Align buttons opposite sides within container */
+  width: 100%; /* Stretch container to full width of header */
+}
+
+/* Individual button positioning */
+
+
+.logout-button {
+  /* Float right to position on right side */
+  float: right;
+}

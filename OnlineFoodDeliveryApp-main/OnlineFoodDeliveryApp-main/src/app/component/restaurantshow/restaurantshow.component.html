@@ -1,0 +1,49 @@
+<app-adminheader></app-adminheader>
+<body>
+  <h1>Update Restaurants</h1>
+<div class="container  col-lg-4">
+    <form   #formData=ngForm  (ngSubmit)="update(formData)" >
+    
+      
+    
+
+    <!-- <div class="form-group">
+        restaurantId :<input type="number" class="form-control" name="restaurantId"  required  #restaurantId="ngModel"  ngModel>
+      <span style="color:red"  *ngIf="restaurantId.touched && restaurantId.invalid" >restaurantId is required</span>
+    </div> -->
+
+
+
+    <div class="form-group">
+        Restaurant Name:<input type="text" class="form-control" name="restaurantName"  required  #restaurantName="ngModel"  ngModel>
+         <span style="color:red"  *ngIf="restaurantName.touched && restaurantName.invalid" >restaurantName is required</span>
+       </div>
+
+
+       <div class="form-group">
+        Cuisine Type:<input type="text" class="form-control" name="cuisineType"  required  #cuisineType="ngModel"  ngModel>
+         <span style="color:red"  *ngIf="cuisineType.touched && cuisineType.invalid" >cuisineType is required</span>
+       </div>
+
+       <div class="form-group">
+        Location:<input type="text" class="form-control" name="location"  required  #location="ngModel"  ngModel>
+         <span style="color:red"  *ngIf="location.touched && location.invalid" >location is required</span>
+       </div>
+
+       <div class="form-group">
+        Rating :<input type="number" class="form-control" name="rating"  required  #rating="ngModel"  ngModel>
+      <span style="color:red"  *ngIf="rating.touched && rating.invalid" >rating is required</span>
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="formData.invalid"  >Update</button>
+
+    
+       
+
+    
+    
+  </form>  
+</div>
+
+<button class="btn btn-secondary" (click)="backTorestautant()">Back To Restaurant</button>
+</body>

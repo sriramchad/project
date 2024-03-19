@@ -1,0 +1,107 @@
+<app-adminheader></app-adminheader>
+<body>
+ 
+    <h1 class="text-center">Restaurant Page</h1>
+
+
+    <!-- <button (click)="getall()">Get Restaurants</button> -->
+
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="input-group">
+            <input type="text" class="form-control" [(ngModel)]="findrestaurant" placeholder="Search">
+            <button class="btn btn-primary" (click)="findRestaurantName()">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+   
+
+
+    <div *ngIf="storerestaurantdetails">
+      
+      <table border="1" class="table table-bordered">
+        <!-- Table headers -->
+        <thead>
+          <tr>
+            <th>Restaurant Id</th>
+            <th>Restaurant Name</th>
+            <th>Cuisine Type</th>
+            <th>Location</th>
+            <th>Rating</th>
+            <th>Delete</th>
+            <th>Update</th>
+          </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+          <tr>
+            <td>{{ storerestaurantdetails.restaurantId }}</td>
+            <td>{{ storerestaurantdetails.restaurantName }}</td>
+            <td>{{ storerestaurantdetails.cuisineType }}</td>
+            <td>{{ storerestaurantdetails.location }}</td>
+            <td>{{ storerestaurantdetails.rating }}</td>
+            <td>
+              <button (click)="delete(storerestaurantdetails.restaurantId)" class="btn btn-danger">Delete</button>
+              
+            </td>
+            <td><button (click)="goToUpdate(storerestaurantdetails.restaurantId)" class="btn btn-update">Update</button></td>
+            <!-- <td *ngFor="let Id of admin.customers; let i = index">
+              {{ admin.customers[i].customerId }}
+            </td> -->
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+
+
+
+    <div *ngIf="response && response.length > 0">
+      <table border="1" class="table table-bordered">
+        <!-- Table headers -->
+        <!-- {{response|json}} -->
+        <thead>
+          <tr>
+            <th>Restaurant Id</th>
+            <th>Restaurant Name</th>
+            <th>Cuisine Type</th>
+            <th>Location</th>
+            <th>Rating</th>
+            <th>Delete</th>
+            <th>Update</th>
+            
+
+          </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+          <tr *ngFor="let admin of response">
+            <td>{{ admin.restaurantId }}</td>
+            <td>{{ admin.restaurantName }}</td>
+            <td>{{ admin.cuisineType }}</td>
+            <td>{{ admin.location }}</td>
+            <td>{{ admin.rating }}</td>
+            
+            <td>
+              <button (click)="delete(admin.restaurantId)" class="btn btn-danger">Delete</button>
+              
+            </td>
+            <td><button (click)="goToUpdate(admin.restaurantId)" class="btn btn-update">Update</button></td>
+            <td *ngFor="let Id of admin.customers; let i = index">
+              {{ admin.customers[i].customerId }}
+            </td>
+        
+          </tr>
+        </tbody>
+        
+      </table>
+   
+    </div>
+
+    
+<button  class="btn btn-secondary" (click)="backToadminDash()">Back To Admin DashBoard</button>
+
+</body>

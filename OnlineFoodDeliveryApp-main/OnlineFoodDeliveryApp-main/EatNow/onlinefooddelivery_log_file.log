@@ -1,0 +1,1044 @@
+[32m2024-01-28 08:30[0;39m [INFO] com.hexaware.fooddelivery.OnlineFoodDeliveryAppApplication [main] Starting OnlineFoodDeliveryAppApplication using Java 17.0.8.1 with PID 23012 (C:\Users\harsh\OneDrive\Documents\EatNow\target\classes started by harsh in C:\Users\harsh\OneDrive\Documents\EatNow)
+[32m2024-01-28 08:30[0;39m [INFO] com.hexaware.fooddelivery.OnlineFoodDeliveryAppApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-01-28 08:30[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-01-28 08:30[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 662 ms. Found 6 JPA repository interfaces.
+[32m2024-01-28 08:30[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8185 (http)
+[32m2024-01-28 08:30[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-01-28 08:30[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+[32m2024-01-28 08:30[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-01-28 08:30[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2746 ms
+[32m2024-01-28 08:30[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-01-28 08:30[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+[32m2024-01-28 08:30[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[32m2024-01-28 08:30[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-01-28 08:30[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c4ca87c
+[32m2024-01-28 08:30[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-01-28 08:30[0;39m [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[32m2024-01-28 08:30[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[32m2024-01-28 08:30[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-01-28 08:30[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-01-28 08:30[0;39m [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3fb54673, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b55652a, org.springframework.security.web.context.SecurityContextHolderFilter@52d625bd, org.springframework.security.web.header.HeaderWriterFilter@4a5dc126, org.springframework.web.filter.CorsFilter@8c54f48, org.springframework.security.web.authentication.logout.LogoutFilter@7f289126, com.hexaware.fooddelivery.filter.JwtAuthFilter@639bf405, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bd7829b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4faccb34, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@119f02d2, org.springframework.security.web.session.SessionManagementFilter@73983f07, org.springframework.security.web.access.ExceptionTranslationFilter@63fcc21, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@460a4935]
+[32m2024-01-28 08:30[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8185 (http) with context path ''
+[32m2024-01-28 08:30[0;39m [INFO] com.hexaware.fooddelivery.OnlineFoodDeliveryAppApplication [main] Started OnlineFoodDeliveryAppApplication in 7.815 seconds (process running for 8.781)
+[32m2024-01-28 08:45[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8185-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-01-28 08:45[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8185-exec-2] Initializing Servlet 'dispatcherServlet'
+[32m2024-01-28 08:45[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8185-exec-2] Completed initialization in 54 ms
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Validating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Checking if token is expired
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting expiration from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.AdminServiceImp [http-nio-8185-exec-7] All admins are fetched
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-4] Fetched all customers data
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Generating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Creating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Validating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Checking if token is expired
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting expiration from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-6] Get  customers with namekarthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:45[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-5] Fetched all Orders data
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-10] Get all carts for customer with id100
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-8] Get  customers with namekarthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8185-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "undefined"]
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-1] Get  customers with namekarthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8185-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "undefined"]
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-6] Get  customers with namekarthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-9] Get  customers with namekarthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-3] Get  customers with namekarthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-4] Get all carts for customer with id100
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-7] Added to Orders with id0
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Generating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Creating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 08:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:46[0;39m [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8185-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "undefined"]
+[32m2024-01-28 08:47[0;39m [INFO] org.springdoc.api.AbstractOpenApiResource [http-nio-8185-exec-7] Init duration for springdoc-openapi is: 987 ms
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Validating token for username: karthik
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Checking if token is expired
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting expiration from token
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 08:48[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-10] Get all orders for customer with id: 100
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-4] Get  customers with namekarthik
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Generating token for username: karthik
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Creating token for username: karthik
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting username from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting username from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Validating token for username: karthik
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Checking if token is expired
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting expiration from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 08:51[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-9] Get all carts for customer with id100
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Validating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Checking if token is expired
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting expiration from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-6] Get  customers with namekarthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Generating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Creating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8185-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "undefined"]
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-4] Get  customers with namekarthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-5] Get all carts for customer with id100
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Validating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Checking if token is expired
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting expiration from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-2] Get  customers with namekarthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Generating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Creating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 08:52[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 08:52[0;39m [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8185-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "undefined"]
+[32m2024-01-28 08:53[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 08:53[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 08:53[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 08:53[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 08:53[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Validating token for username: karthik
+[32m2024-01-28 08:53[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Checking if token is expired
+[32m2024-01-28 08:53[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting expiration from token
+[32m2024-01-28 08:53[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 08:53[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-7] Get all orders for customer with id: 1
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-5] Fetched all customers data
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Validating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Checking if token is expired
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting expiration from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-2] Get  customers with namekarthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Validating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Checking if token is expired
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting expiration from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-10] Get all carts for customer with id100
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-4] Get  customers with namekarthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Generating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Creating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Validating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Checking if token is expired
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting expiration from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-9] Fetched all customers data
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Validating token for username: karthik
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Checking if token is expired
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting expiration from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 09:03[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-2] Get  customers with namekarthik
+[32m2024-01-28 10:12[0;39m [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m2s561ms569µs700ns).
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Generating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Creating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.AdminServiceImp [http-nio-8185-exec-4] All admins are fetched
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Generating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Creating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Validating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Checking if token is expired
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting expiration from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-2] Fetched all customers data
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-8] Get  customers with namekarthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-4] Get  customers with namekarthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-5] Get  customers with namekarthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Generating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Creating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Validating token for username: karthik
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Checking if token is expired
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting expiration from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:15[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-2] Get all orders for customer with id: 100
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Generating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Creating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-8] Get  customers with namekarthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Validating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Checking if token is expired
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting expiration from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-1] Get all carts for customer with id100
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Generating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Creating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Validating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Checking if token is expired
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting expiration from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-6] Fetched all customers data
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Generating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Creating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Validating token for username: karthik
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Checking if token is expired
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting expiration from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:16[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-7] Get  customers with namekarthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-5] Get all carts for customer with id100
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Validating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Checking if token is expired
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting expiration from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-10] Fetched all customers data
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Generating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Creating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Validating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Checking if token is expired
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting expiration from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-7] Get  customers with namekarthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Generating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Creating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Validating token for username: karthik
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Checking if token is expired
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting expiration from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:17[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-1] Get all orders for customer with id: 100
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Generating token for username: karthik
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Creating token for username: karthik
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Validating token for username: karthik
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Checking if token is expired
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting expiration from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-3] Fetched all customers data
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Validating token for username: karthik
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Checking if token is expired
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting expiration from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-6] Get  customers with namekarthik
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Generating token for username: karthik
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Creating token for username: karthik
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Validating token for username: karthik
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Checking if token is expired
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting expiration from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:23[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-7] Get all orders for customer with id: 100
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-5] Get  customers with namekarthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-3] Get all carts for customer with id100
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-10] Cart deleted
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-4] Get  customers with namekarthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-5] Get all carts for customer with id100
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-2] Get  customers with namekarthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.RestaurantsServiceImp [http-nio-8185-exec-8] Fetched all Restaurants data
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.MenuSeviceImp [http-nio-8185-exec-1] Get all menus with restaurantId: 400
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-3] Get  customers with namekarthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-8] Get all carts for customer with id100
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-10] Added to cart with id0
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-5] Get  customers with namekarthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Creating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Validating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Checking if token is expired
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting expiration from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-3] Get all carts for customer with id100
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 10:24[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Validating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Checking if token is expired
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting expiration from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-7] Added to Orders with id0
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-5] Fetched all customers data
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Generating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Creating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Validating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Checking if token is expired
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting expiration from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-3] Get  customers with namekarthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-8] Get all orders for customer with id: 100
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:27[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-4] Get  customers with namekarthik
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Generating token for username: karthik
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Creating token for username: karthik
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting username from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting username from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Validating token for username: karthik
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Checking if token is expired
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting expiration from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.AdminServiceImp [http-nio-8185-exec-9] All admins are fetched
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:28[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-8] Fetched all Orders data
+[32m2024-01-28 10:41[0;39m [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m56s776ms119µs100ns).
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-4] Get all carts for customer with id100
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Generating token for username: karthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Creating token for username: karthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting username from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting username from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Validating token for username: karthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Checking if token is expired
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting expiration from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Extracting all claims from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-9] Get  customers with namekarthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Validating token for username: karthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Checking if token is expired
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting expiration from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-2] Get all carts for customer with id100
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Generating token for username: karthik
+[32m2024-01-28 10:41[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.AdminServiceImp [http-nio-8185-exec-5] All admins are fetched
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-8] Fetched all customers data
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-1] Get  customers with namekarthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-3] Get all carts for customer with id100
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-10] Get  customers with namekarthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-5] Get all orders for customer with id: 100
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-9] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-3] Get  customers with namekarthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-6] Get all carts for customer with id100
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-4] Get  customers with namekarthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.RestaurantsServiceImp [http-nio-8185-exec-5] Fetched all Restaurants data
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-2] Get  customers with namekarthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-8] Get  customers with namekarthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Generating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Creating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting username from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Validating token for username: karthik
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Checking if token is expired
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting expiration from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Extracting all claims from token
+[32m2024-01-28 10:46[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-7] Get  customers with namekarthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Generating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Creating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.RestaurantsServiceImp [http-nio-8185-exec-5] Fetched all Restaurants data
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Generating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Creating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Validating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Checking if token is expired
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting expiration from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.MenuSeviceImp [http-nio-8185-exec-10] Fetched all Menu data
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Generating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-7] Creating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Generating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Creating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Validating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Checking if token is expired
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting expiration from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-5] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.CartServiceImp [http-nio-8185-exec-5] Fetched all cart data
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Generating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-3] Creating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Generating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-2] Creating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Validating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Checking if token is expired
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting expiration from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-6] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.OrdersServiceImp [http-nio-8185-exec-6] Fetched all Orders data
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Generating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-8] Creating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Validating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Checking if token is expired
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting expiration from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-10] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-10] Fetched all customers data
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Generating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-4] Creating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting username from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Validating token for username: karthik
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Checking if token is expired
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting expiration from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.JwtService [http-nio-8185-exec-1] Extracting all claims from token
+[32m2024-01-28 10:47[0;39m [INFO] com.hexaware.fooddelivery.service.CustomersServiceImp [http-nio-8185-exec-1] Fetched all customers data
+[32m2024-01-28 10:48[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(125)-127.0.0.1] Application shutdown requested.
+[32m2024-01-28 10:48[0;39m [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(125)-127.0.0.1] Stopping service [Tomcat]
+[32m2024-01-28 10:48[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(125)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[32m2024-01-28 10:48[0;39m [WARN] org.apache.catalina.loader.WebappClassLoaderBase [RMI TCP Connection(125)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+[32m2024-01-28 10:48[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(125)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-01-28 10:48[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(125)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[32m2024-01-28 10:48[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(125)-127.0.0.1] HikariPool-1 - Shutdown completed.

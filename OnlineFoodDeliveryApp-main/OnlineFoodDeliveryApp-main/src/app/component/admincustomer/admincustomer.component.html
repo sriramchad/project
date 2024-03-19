@@ -1,0 +1,32 @@
+<app-adminheader></app-adminheader>
+<h2 class="text-center">View All customers Page</h2>
+<div>
+<table border="1" class="table table-bordered">
+      
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Location</th>
+        <th>email</th>
+        <th>phoneNumber</th>
+        <th>password</th>
+        <th>Role</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+      <tr *ngFor="let admin of response">
+        <td>{{ admin.customerId }}</td>
+        <td>{{ admin.customerName}}</td>
+        <td>{{ admin.deliveryAddress }}</td>
+        <td>{{ admin.email }}</td>
+        <td>{{admin.phoneNumber}}</td>
+        <td>{{ admin.password}}</td>
+        <td>{{ admin.role }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<button class="btn btn-secondary" (click)="backToadminDash()">Back To Admin DashBoard</button>

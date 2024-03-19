@@ -1,0 +1,48 @@
+<app-customerheader></app-customerheader>
+
+<body>
+ <!-- {{customerid}} -->
+    <h2 class="text-center">Restaurant Page</h2>
+    <!-- <button (click)="getall()">Get Restaurants</button> -->
+    
+    <div *ngIf="response && response.length > 0">
+      <table border="1" class="table table-bordered">
+        <!-- Table headers -->
+        <!-- {{response|json}} -->
+        <thead>
+          <tr>
+            <th>restaurantId</th>
+            <th>restaurantName</th>
+            <th>cuisineType</th>
+            <th>location</th>
+            <th>rating</th>
+            
+
+          </tr>
+        </thead>
+        <!-- Table body -->
+        <tbody>
+          <tr *ngFor="let admin of response">
+            <td>{{ admin.restaurantId }}</td>
+            <td>{{ admin.restaurantName }}</td>
+            <td>{{ admin.cuisineType }}</td>
+            <td>{{ admin.location }}</td>
+            <td>{{ admin.rating }}</td>
+            
+            <td>
+              <button (click)="goToMenu(admin.restaurantId)" class="btn btn-danger">View Menu</button>
+              
+            </td>
+            <td *ngFor="let Id of admin.customers; let i = index">
+              {{ admin.customers[i].customerId }}
+            </td>
+        
+          </tr>
+        </tbody>
+        
+      </table>
+   
+    </div>
+    <button class="btn btn-secondary" (click)="backTocustomerDash()">Back To Customer DashBoard</button>
+
+  </body>
